@@ -65,7 +65,7 @@ export default defineConfig({
     },
   },
   output: {
-    assetPrefix: isStaticBuild ? '/bot/preview/' : '/',
+    assetPrefix: '/my-trading-app/',
     distPath: {
       root: isStaticBuild ? 'out/preview' : 'dist',
     },
